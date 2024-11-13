@@ -34,7 +34,7 @@ public class Config {
      * <strong>上线时请一定要切换成你们自己的服务。可以购买腾讯云或者阿里云的轻量服务器，价格很便宜，可以避免影响到您的用户体验。</strong>
      * <br>
      */
-    public static String[][] ICE_SERVERS/*请仔细阅读上面的注释*/ = new String[][]{
+    public static String[][] ICE_SERVERS = new String[][]{
         // 如果是高级版，请删除掉下面的配置项目，保持ICE_SERVERS为空数组就行。
         // 数组元素定义
         /*{"turn server uri", "userName", "password"}*/
